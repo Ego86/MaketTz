@@ -1,4 +1,3 @@
-import Swiper from "swiper";
 const tabs = document.querySelectorAll(".header__tab");
 const cards = document.querySelectorAll(".card");
 const cardsOverlay = document.querySelectorAll(".card-overlay");
