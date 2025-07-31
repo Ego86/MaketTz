@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+    <script defer type="module" src="./src/main.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <ul class="header__tabs-wrapper">
+            <li class="header__tab header__tab--active">All</li>
+            <li class="header__tab">Taxes & Efficiency</li>
+            <li class="header__tab">Investment banking</li>
+            <li class="header__tab">Financial Plan</li>
+            <li class="header__tab">Audit & Evaluation</li>
+        </ul>
+    </header>
+    <main>
+
+        <section class="cards-container swiper-container">
+            <div class="swiper-wrapper">
+                <div class="card swiper-slide ">
+                    <div class="card-overlay">
+                        <img src="./assets/Plus.svg" class="card-overlay-button" />
+                        <div class="card-overlay-text">
+                            <h3 class="card-overlay-title">Taxes & Efficiency</h3>
+                            <p class="card-overlay-lead">Business</p>
+                        </div>
+                    </div>
+                    <img class="card-image" src="assets/14d86e50f40968ceb6e6afd911fa1d09927865cf.png" alt="">
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-overlay">
+                        <img src="./assets/Plus.svg" class="card-overlay-button" />
+                        <div class="card-overlay-text">
+                            <h3 class="card-overlay-title">Investment banking</h3>
+                            <p class="card-overlay-lead">Business</p>
+                        </div>
+                    </div>
+                    <img class="card-image card-image--zoom" src="assets/6cab11eb063fcd8217485dbaae841d502afb5fee.jpg"
+                        alt="">
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-overlay">
+                        <img src="./assets/Plus.svg" class="card-overlay-button" />
+                        <h3 class="card-overlay-text">Financial Plan</h3>
+                        <p class="card-overlay-lead">Business</p>
+                    </div>
+                    <img class="card-image" src="assets/64d561f02a34880538eda352a1b6297df00e25b2.png" alt="">
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-overlay">
+                        <img src="./assets/Plus.svg" class="card-overlay-button" />
+                        <div class="card-overlay-text">
+                            <h3 class="card-overlay-title">Audit & Evaluation</h3>
+                            <p class="card-overlay-lead">Business</p>
+                        </div>
+                    </div>
+                    <img class="card-image" src="assets/474977472f7d3dca7b8ee857d1144bd1483ed3d2.png" alt="">
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-overlay">
+                        <img src="./assets/Plus.svg" class="card-overlay-button" />
+                        <div class="card-overlay-text">
+                            <h3 class="card-overlay-title">Taxes & Efficiency</h3>
+                            <p class="card-overlay-lead">Business</p>
+                        </div>
+                    </div>
+                    <img class="card-image" src="assets/b86e0266626cd9afa6689a248249ce829f488b84.jpg" alt="">
+                </div>
+                <div class="card swiper-slide">
+                    <div class="card-overlay">
+                        <img src="./assets/Plus.svg" class="card-overlay-button" />
+                        <div class="card-overlay-text">
+                            <h3 class="card-overlay-title">Audit & Evaluationy</h3>
+                            <p class="card-overlay-lead">Business</p>
+                        </div>
+                    </div>
+                    <img class="card-image" src="assets/b7518b52c3cc3f7c94818ec717a3a7894de78d56.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts">
+            <article class="contacts__data-container">
+                <div class="contacts__wrapper-title">
+                    <div class="contacts__process">PROCESS</div>
+                    <h2 class="contacts__title">Contact Us. It`s Easy</h2>
+                    <p class="contacts__lead">Leverage agile frameworks to provide a robust synopsis for high level
+                        overviews. Iterative approaches
+                        to corporate strategy foster collaborative.
+                    </p>
+                </div>
+                <address class="contacts__data">
+                    <div class="contacts__data-item">
+                        <img class="contacts__data-item-icon" src="assets/phone.svg" alt="Phone icon">
+                        <div class="contacts__data-item-text">
+                            <h3 class="contacts__data-item-label">Call Today</h3>
+                            <p class="contacts__data-item-value">+1 800 100 900</p>
+                        </div>
+                    </div>
+                    <div class="contacts__data-item">
+                        <img class="contacts__data-item-icon" src="assets/time.svg" alt="Time icon">
+                        <div class="contacts__data-item-text">
+                            <h3 class="contacts__data-item-label">Monday To Friday</h3>
+                            <p class="contacts__data-item-value">9AM - 5PM</p>
+                        </div>
+                    </div>
+                    <div class="contacts__data-item">
+                        <img class="contacts__data-item-icon" src="assets/location.svg" alt="Location icon">
+                        <div class="contacts__data-item-text">
+                            <h3 class="contacts__data-item-label">USA Office</h3>
+                            <p class="contacts__data-item-value">195 Devonshire St Boston, MA 02110</p>
+                        </div>
+                    </div>
+                </address>
+            </article>
+            <article class="contacts__form-container">
+                <form class="contacts__form">
+                    <div class="contacts__form-item">
+                        <label class="contacts__form-item-label" for="full-name">Full Name</label>
+                        <input type="text" id="full-name" placeholder="john david" class="contacts__form-item-input"
+                            required>
+                    </div>
+
+                    <div class="contacts__form-item">
+                        <label class="contacts__form-item-label" for="email">Email</label>
+                        <input type="email" id="email" placeholder="consult@mail.com" class="contacts__form-item-input"
+                            required>
+                    </div>
+
+                    <div class="contacts__form-item">
+                        <label class="contacts__form-item-label" for="phone">Phone</label>
+                        <input type="tel" id="phone" placeholder="+008 654 231" class="contacts__form-item-input"
+                            required>
+                    </div>
+
+                    <div class="contacts__form-item">
+                        <label class="contacts__form-item-label" for="company">Company (optional)</label>
+                        <input type="text" id="company" placeholder="yourcompany.com" class="contacts__form-item-input">
+                    </div>
+
+                    <div>
+                        <div class="contacts__form-item">
+                            <label class="contacts__form-item-label" for="message">Message</label>
+                            <textarea id="message"
+                                placeholder="Briefly tell us about your project and your current goals. How can we help you?"
+                                class="contacts__form-item-textarea" required></textarea>
+                        </div>
+
+                        <button type="submit" class="contacts__form-submit">Send Message</button>
+                    </div>
+                </form>
+            </article>
+
+        </section>
+    </main>
+</body>
+
+</html>
